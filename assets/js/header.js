@@ -14,6 +14,7 @@ $(document).ready(function()
 		if ($(this).scrollTop()>55) 
 		{
 			$('.mobile').addClass('mobile-sticky');
+
 		}
 		else
 		{
@@ -24,9 +25,7 @@ $(document).ready(function()
 
 	$("#icon").on('click',  function() 
 		{
-			$(".mobile-menu.menu").css({
-				display: 'none'
-			});
+			$(".mobile-menu .menu").toggleClass('menu-display');
 
 		});
 

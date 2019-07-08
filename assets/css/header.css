@@ -153,13 +153,19 @@ header section .header-text-side
 
  .mobile-sticky
 {
+
 	position:fixed;
 	width: 100%;
 	height:70px;
-	display:flex;
+	display:none;
 	box-shadow:none;
 	background:#1e6590;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.menu-display
+{
+	display:none;
 }
 
 .mobile-menu
@@ -170,7 +176,7 @@ header section .header-text-side
 	left:0;
 	width:100%;
 
-	margin-top:70px;
+	margin-top:69px;
 	
 }
 
@@ -192,17 +198,20 @@ header section .header-text-side
 .mobile-menu .menu ul li 
 {
 
-	background-color:#1e6590;
+	background-color:#266890;
 	width:100%;
 	height:40px;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	justify-content:center;
+	border-top:1px solid #dedede;
+	color:#fff;
 }
 
 .mobile-menu .menu ul li:hover
 {
-	background-color:green;
+	background-color:#37779e;
 }
 
 
@@ -237,7 +246,8 @@ header section .header-text-side
 		display:flex;
 		box-shadow:none;
 		background:#1e6590;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		z-index:15;
 	}
 
 	.desktop .logo

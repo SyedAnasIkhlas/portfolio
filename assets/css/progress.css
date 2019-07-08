@@ -1,0 +1,31 @@
+.language
+{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.chart h3
+{
+    position:absolute;
+    text-align:center;
+    margin-top:25%;
+    margin-left:25%;
+    top:50;
+    left:50
+}
+
+
+@media screen and (max-width:414px)
+{
+   .chart h3
+{
+    position:absolute;
+    text-align:center;
+    margin-top:17%;
+    margin-left:15%;
+    top:50;
+    left:50
+} 
+}

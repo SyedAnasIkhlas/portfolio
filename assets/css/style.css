@@ -7,4 +7,52 @@
 	font-family: Poppins;
 }
 
+.content-holder
+{
+	width:100%;
+	height:auto;
+	padding:5px;
+}
+
+.content-holder.color
+{
+	background: linear-gradient(56deg,#006ca7,#1e4d92);
+}
+
+
+.about-me
+{
+	padding:0;
+	margin:0px;
+	width:100%;
+	height:auto;
+	padding:5px;
+	background: linear-gradient(56deg,#006ca7,#1e4d92);
+	-webkit-box-shadow: -3px -16px 30px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px -16px 30px -12px rgba(0,0,0,0.75);
+	box-shadow: -3px -16px 30px -12px rgba(0,0,0,0.75);
+}
+
+.about-me h1
+{
+	text-align:center;
+	color:#fff;
+
+}
+
+
+p
+{
+	width:50%;
+	margin:10px  auto;
+	color:#9c9898;
+	font-size:20px;
+}
+
+.skill-text h2
+{
+	text-align:center;
+}
+
+
 
