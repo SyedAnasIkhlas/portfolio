@@ -35,15 +35,17 @@
 
 .about-me h1
 {
+	height:60px;
 	text-align:center;
 	color:#fff;
+
 
 }
 
 
 p
 {
-	width:50%;
+	width:60%;
 	margin:10px  auto;
 	color:#9c9898;
 	font-size:20px;
@@ -56,3 +58,114 @@ p
 
 
 
+.owl-container
+{
+	width:78%;
+	margin:0 auto;
+}
+
+.content-holder.color.projects 
+{
+	width:100%;
+	
+}
+
+.content-holder.color.projects h1
+{
+	text-align:center;
+	color:white;
+	font-size:49px;
+}
+
+.content-holder.color.projects .project
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:#ff045a;
+	font-size:18px;
+}
+
+.content-holder.color.projects .project span
+{
+	color:#fff;
+}
+
+.content-holder.color.projects .project .project-link
+{
+	font-size:15px;
+}
+
+.content-holder.color.projects .project .project-link a
+{
+	color:#FFEB3B;
+	text-decoration:none;
+}
+
+.content-holder.color.projects .project .project-link a:hover
+{
+	color:#03A9F4;
+	text-decoration:underline;
+}
+
+.certificates
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.certificates h1
+{
+	text-align:center;
+}
+
+.certificates a
+{
+	text-decoration:none;
+	color:brown;
+}
+
+.certificates a:hover
+{
+	color:#822525
+}
+
+.contact
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	padding:16px;
+}
+
+.contact h1
+{
+	color:#fff;
+}
+
+.contact form
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:80%;
+}
+.contact form input
+{
+	margin-top:8px;
+	border-radius:0;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+
+}
+
+.contact form textarea
+{
+	border-radius:0;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
