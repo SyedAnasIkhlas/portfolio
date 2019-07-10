@@ -6,6 +6,7 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 
 	<title>Syed Anas Ikhlas</title>
+	<link rel="shortcut icon" type="image/png" href="assets/icons/code.png">
 	<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/css/shortcut.css">
@@ -14,56 +15,62 @@
 	<link rel="stylesheet" href="assets/css/progress.css">
 	<link rel="stylesheet" href="assets/css/footer.css">
 
-	<nav class="mobile">
-			<div class="logo">
-				<h1>Syed Anas Ikhlas</h1>
-			</div>
+	<nav class="mobile" >
+		<div class="logo" >
+			<h1>Syed Anas Ikhlas</h1>
+		</div>
 
-			<div class="menu-icon">
-				<span id="icon">&#9776;</span>	
-			</div>
+		<div class="menu-icon">
+			<span id="icon">&#9776;</span>	
+		</div>
 
-			<div class="mobile-menu">
-				<div class="menu menu-display">
-					<ul>
-						<li>Home</li>
-						<li>Exp</li>
-						<li>Contact</li>
-						<li>About</li>
-					</ul>
-				</div>
-			</div>
-			
-		</nav>
-
-
-	<nav class="desktop">
-			<div class="logo">
-				<h1>Syed Anas Ikhlas</h1>
-			</div>
-
-			<div class="menu">
+		<div class="mobile-menu">
+			<div class="menu menu-display">
 				<ul>
-					<li>Home</li>
-					<li>Exp</li>
-					<li>Contact</li>
-					<li>About</li>
+					<li><a href="#home" class="noDec white ">Home</a></li>
+					<li><a href="#about" class="noDec white ">About</a></li>
+					<li><a href="#skills" class="noDec white ">Skills</a></li>
+					<li><a href="#project" class="noDec white ">Projects</a></li>
+					<li><a href="#certificate" class="noDec white ">Certificates</a></li>
+					<li><a href="#contact" class="noDec white ">Contact Me</a></li>
 				</ul>
 			</div>
-		</nav>
+		</div>
+			
+	</nav>
+
+
+	<nav class="desktop" >
+		<div class="logo">
+			<h1>Syed Anas Ikhlas</h1>
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="#home" class="noDec white ">Home</a></li>
+				<li><a href="#about" class="noDec white ">About</a></li>
+				<li><a href="#skills" class="noDec white ">Skills</a></li>
+				<li><a href="#project" class="noDec white ">Projects</a></li>
+				<li><a href="#certificate" class="noDec white ">Certificates</a></li>
+				<li><a href="#contact" class="noDec white ">Contact Me</a></li>
+			</ul>
+		</div>
+	</nav>
+
 	<header class="site-header">
 
 		
 	
 
-		<div class="space-filler"></div>
+		<div class="space-filler" id="home"></div>
 
 		<section>
 			
 
 			<div class="header-text-side">
 				<h1>Code, Code, And Code</h1>
-				<button class="button gradient-blue">Explore</button>
+				<!-- <button class="button gradient-blue" onclick="explore()">Explore</button> -->
+				<a class="button gradient-blue pointer noDec" href="#about" id="click">Explore</a>
 			</div>
 
 			<div class="header-image-side">
@@ -73,12 +80,18 @@
 
 	</header>
 </head>
+
 <body>
 
-	<div class="about-me">
+	
+
+	<div id="about" class="about-me">
+		<div class="my-image">
+			<img src="images/coder.png" alt="Syed Anas Ikhlas">
+		</div>		
 		<h1 class="slide-bottom">About Me</h1>
 		<p class="slide-right">
-			My name is Syed Anas Ikhlas and I'm from Karachi Pakistan.
+			My name is Syed Anas Ikhlas and I live in Saudi Arabia.
 			I'm 18 years old, full stack web developer and I have over
 			a year experience in HTML, CSS, JS, JQUERY, and PHP...
 			I am also learning Python for Machine Learning and web development. 
@@ -86,7 +99,7 @@
 
 	</div>
 
-	<div class="content-holder skills">
+	<div class="content-holder skills" id="skills">
 		<div class="skill-text">
 			<h2>TECHNICAL SKILLS</h2>
 			<p>A
@@ -141,8 +154,21 @@
 
 	</div>
 
-	<div class="content-holder color projects">
-		<h1>My Project</h1>
+
+	<div class="content-holder color projects" >
+		<h1>My Projects</h1>
+		<div class="project">
+
+			<h3>Github</h3>
+			<!-- <img src="images/tasbeeh-counter.PNG" alt="Tasbeeh Counter"> -->
+
+			<div class="project-link">
+				<span>Link:</span>
+				<a href="https://github.com/SyedAnasIkhlas" target="_blank">Github</a>
+			</div>
+			
+		</div>
+
 		<div class="project">
 
 			<h3>Tasbeeh Counter</h3>
@@ -150,20 +176,25 @@
 
 			<div class="project-link">
 				<span>Link:</span>
-				<a href="https://syedanasikhlas.github.io/tasbeeh/">Tasbeeh Counter</a>
+				<a href="https://syedanasikhlas.github.io/tasbeeh/" target="_blank">Tasbeeh Counter</a>
 			</div>
 			
 		</div>
 	</div>
 	
-	<div class="content-holder certificates">
+	<div class="content-holder certificates" id="certificate">
 		<h1>My Certificates</h1>
-		<a href="">the-cca certificate</a>
-		<a href="">udemy certificate</a>
+		<a href="certificate/CCA-Certificate-HTML Level 1.pdf" target="_blank">the-cca HTML certificate</a>
+		<a href="certificate/CCA-Certificate-PHP Level 1.pdf" target="_blank">the-cca PHP certificate</a>
+		<a href="certificate/UC-URYL0YXE.pdf" target="_blank">Udemy full stack web developer certificate</a>
+		<a href="certificate/UC-VBW2K11I.pdf" target="_blank">Udemy E-commerce website certificate</a>
+		<a href="certificate/UC-I342DJI0.pdf" target="_blank">Udemy Ajax and PHP chat system certificate</a>
+		<a href="certificate/UC-0RN31G00.pdf" target="_blank">Udemy css flex-box certificate</a>
+		<a href="certificate/UC-8TMARS2F.pdf" target="_blank">Udemy animated gallery certificate</a>
 		
 	</div>
 
-	<div class="content-holder color contact">
+	<div class="content-holder color contact" id="contact">
 		<h1>Contact Me</h1>
 		<form name="contact-me" data-netlify="true">
 			<input type="text" placeholder="Name" name='name' required>

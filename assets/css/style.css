@@ -19,6 +19,23 @@
 	background: linear-gradient(56deg,#006ca7,#1e4d92);
 }
 
+.my-image
+{
+
+	width:100px;
+	padding:19px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #eee;
+	border-radius:50%;
+	background:#fff;
+	margin-top:15px;
+}
+
+.my-image img
+{
+	width:100%;
+}
 
 .about-me
 {
@@ -83,8 +100,8 @@ p
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	color:#ff045a;
-	font-size:18px;
+	color:#101010;
+	font-size:28px;
 }
 
 .content-holder.color.projects .project span
@@ -94,12 +111,12 @@ p
 
 .content-holder.color.projects .project .project-link
 {
-	font-size:15px;
+	font-size:19px;
 }
 
 .content-holder.color.projects .project .project-link a
 {
-	color:#FFEB3B;
+	color:#1dff26;
 	text-decoration:none;
 }
 
@@ -168,4 +185,13 @@ p
 	border-radius:0;
 	border-top-left-radius:20px;
 	border-bottom-right-radius:20px;
+}
+
+@media screen and (max-width:414px)
+{
+	.certificates a
+	{
+		font-size:12px;
+		
+	}
 }
